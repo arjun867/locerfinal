@@ -1,3 +1,45 @@
+
+.firstname{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.lastname{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.emailinput{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.phonenumber{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 .contact-form {
   margin: 0 auto; /* Center the container */
 }
@@ -536,6 +578,14 @@
   min-width: 55px;
 }
 .write-your-message {
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
   font-size: var(--font-size-sm);
   line-height: 20.4px;
 }
