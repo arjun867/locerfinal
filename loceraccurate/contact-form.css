@@ -593,9 +593,11 @@
   font-size: 16px;
   font-size: var(--font-size-sm);
   line-height: 20.4px;
-  width: 576px;
-}
-.message-field {
+  width: 570px;
+  resize: none; /* Prevents resizing of the textarea */
+  overflow-y: hidden; /* Hides the vertical scrollbar */
+  height: 24px; /* Adjust height to match the single line height */
+}.message-field {
   flex-direction: column;
   gap: 5.5px;
   color: var(--color-gray-100);
