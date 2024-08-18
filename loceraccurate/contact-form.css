@@ -249,6 +249,7 @@
   z-index: 1;
 }
 .first-name {
+  color: black;
   position: relative;
   line-height: 20px;
   font-weight: 500;
@@ -292,7 +293,7 @@
   position: relative;
   line-height: 20px;
   font-weight: 500;
-  color: inherit;
+  color: black;
   display: inline-block;
   min-width: 34px;
   z-index: 2;
@@ -529,6 +530,7 @@
   flex-shrink: 0;
 }
 .message {
+  color: black;
   line-height: 20px;
   display: inline-block;
   min-width: 55px;
