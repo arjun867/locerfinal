@@ -12,14 +12,14 @@
             const pcVersion = "loceraccurate/index.html";
 
             // Display the screen width and URL for debugging
-            document.body.innerHTML = `<h1>Screen Width: ${screenWidth}px</h1><p>Current URL: ${window.location.href}</p>`;
+            // document.body.innerHTML = `<h1>Screen Width: ${screenWidth}px</h1><p>Current URL: ${window.location.href}</p>`;
             
             // Redirection logic
             if (screenWidth > 1024) {
-                document.body.innerHTML += `<p>Redirecting to PC Version: ${pcVersion}</p>`;
+                // document.body.innerHTML += `<p>Redirecting to PC Version: ${pcVersion}</p>`;
                 window.location.href = pcVersion;
             } else {
-                document.body.innerHTML += `<p>Redirecting to Mobile Version: ${mobileVersion}</p>`;
+                // document.body.innerHTML += `<p>Redirecting to Mobile Version: ${mobileVersion}</p>`;
                 window.location.href = mobileVersion;
             }
         };
@@ -27,8 +27,8 @@
 </head>
 <body>
     <!-- Fallback content if JavaScript fails -->
-    <noscript>
+    <!-- <noscript>
         <h1>Please enable JavaScript to view this site correctly.</h1>
-    </noscript>
+    </noscript> -->
 </body>
 </html>
