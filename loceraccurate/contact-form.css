@@ -1,5 +1,7 @@
 
 .firstname{
+  margin-top: -7px;
+  margin-left: -5px;
   border: none;
   border-bottom: 1px solid grey;
   background: transparent;
@@ -20,16 +22,18 @@
   font-size: 16px;
 }
 .emailinput{
+  margin-top: -30px;
   border: none;
   border-bottom: 1px solid grey;
   background: transparent;
   padding: 5px 0;
   outline: none;
-  width: 100%;
+  width: 192px;
   box-sizing: border-box;
   font-size: 16px;
 }
 .phonenumber{
+  
   border: none;
   border-bottom: 1px solid grey;
   background: transparent;
@@ -425,7 +429,8 @@
   position: relative;
 }
 .phone-number-icon {
-  align-self: stretch;
+  margin-left: -20px;
+  /* align-self: stretch; */
   justify-content: flex-end;
 }
 .phone-number-field {
@@ -588,6 +593,7 @@
   font-size: 16px;
   font-size: var(--font-size-sm);
   line-height: 20.4px;
+  width: 576px;
 }
 .message-field {
   flex-direction: column;
