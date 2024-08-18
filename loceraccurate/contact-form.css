@@ -1,3 +1,7 @@
+.contact-form {
+  margin: 0 auto; /* Center the container */
+}
+
 .frame-child8,
 .frame-child9 {
   position: relative;
@@ -72,8 +76,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   z-index: 1;
 }
 .mingcutelinkedin-fill-icon3 {
@@ -114,8 +118,9 @@
   z-index: 1;
 }
 .claritycursor-hand-click-line-icon {
-  height: 24px;
-  width: 24px;
+  /* height: 24px; */
+  /* width: 24px; */
+  margin-bottom: 24px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -231,7 +236,6 @@
   height: 647px;
   width: 491px;
   border-radius: var(--br-3xs);
-  overflow-y: auto;
   flex-direction: column;
   padding: var(--padding-21xl) var(--padding-20xl) 532px;
   box-sizing: border-box;
