@@ -141,7 +141,7 @@
   padding: var(--padding-4xs) var(--padding-21xl) var(--padding-4xs)
     var(--padding-61xl);
   box-sizing: border-box;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 99;
   max-width: 106%;

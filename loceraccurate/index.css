@@ -234,6 +234,7 @@
   color: var(--color-black);
 }
 .header2 {
+  position: fixed;
   margin-right: -338px;
   top: 0;
   left: 0;
