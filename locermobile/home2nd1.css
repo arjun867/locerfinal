@@ -342,6 +342,7 @@ details[open] .arrow-right-alt-icon {
 }
 
 .answer {
+  padding-bottom: 8px;
   margin-right: 34px;
   background-color: #f0f0f0;
   border: 1px solid #dcdcdc;
