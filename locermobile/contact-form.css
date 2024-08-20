@@ -309,6 +309,7 @@
   font-size: var(--font-size-sm);
 }
 .frame-parent4 {
+  margin: 0 auto;
   width: 304px;
   gap: var(--gap-xl);
   z-index: 1;
