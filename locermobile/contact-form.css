@@ -45,6 +45,7 @@
   opacity: 0.4;
 }
 .inputcontainer {
+  width: 65vw;
   align-self: stretch;
   box-shadow: 0 2px 4px rgba(66, 80, 102, 0.1);
   border-radius: var(--br-8xs);
@@ -202,6 +203,7 @@
   justify-content: flex-start;
 }
 .inputcontainer3 {
+  width: 71vw;
   align-self: stretch;
   box-shadow: 0 2px 4px rgba(66, 80, 102, 0.1);
   border-radius: var(--br-8xs);
@@ -296,6 +298,7 @@
   justify-content: flex-start;
 }
 .inputcontainer4 {
+  width: 62vw;
   align-self: stretch;
   box-shadow: 0 2px 4px rgba(66, 80, 102, 0.1);
   border-radius: var(--br-8xs);
