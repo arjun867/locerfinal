@@ -527,7 +527,8 @@ html, body {
   width: 360px;
 }
 .rectangle-div {
-  top: 3298px;
+  /* top: 3298px; */
+  top: 3173px;
   background-color: var(--color-midnightblue-100);
   height: 272px;
 }
@@ -618,7 +619,8 @@ html, body {
 }
 .footer3 {
   position: absolute;
-  top: 3568px;
+  /* top: 3568px; */
+  top: 3443px;
   left: calc(50% - 180px);
   background-color: var(--color-midnightblue-100);
   width: 360px;
@@ -672,7 +674,8 @@ html, body {
 }
 .frame2 {
   position: absolute;
-  top: 3427px;
+  /* top: 3427px; */
+  top: 3302px;
   left: calc(50% - 166px);
   width: 333px;
   height: 104px;
@@ -682,7 +685,8 @@ html, body {
 }
 .illustration-icon {
   position: absolute;
-  top: 3170px;
+  /* 3170 */
+  top: 3045px;
   left: 41px;
   width: 260px;
   height: 235.9px;
@@ -721,10 +725,10 @@ html, body {
 .header3 {
   position: fixed;
   top: 0;
-  left: calc(50% - 180px);
+  left: calc(50% - 200px);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--foundation-red-red-50);
-  width: 360px;
+  width: 100vw;
   height: 64px;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-xl);
@@ -785,7 +789,7 @@ html, body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  height: 3869px;
+  height: 3800px;
   overflow-y: auto;
   text-align: left;
   font-size: var(--font-size-5xl);
