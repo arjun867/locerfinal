@@ -759,11 +759,11 @@ a{
   z-index: 2;
 }
 .union-block {
-  height: 180px;
+  /* height: 180px; */
   flex: 1;
   position: relative;
-  min-width: 346px;
-  max-width: 100%;
+  /* min-width: 346px; */
+  /* max-width: 100%; */
 }
 .ellipse-icon {
   width: 108px;
