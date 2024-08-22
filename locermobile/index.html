@@ -371,23 +371,26 @@
       </div>
     </div>
     <script>
-      window.addEventListener('scroll', function() {
-      // Get the index div
-      const indexDiv = document.querySelector('.index');
-      
-      // Get the bounding rectangle of the index div
-      const rect = indexDiv.getBoundingClientRect();
-      
-      // Get the height of the viewport
-      const windowHeight = window.innerHeight;
-      
-      // Check if the bottom of the div is above the bottom of the viewport
-      if (rect.bottom <= 0) {
-        indexDiv.classList.add('hidden');
-      } else {
-        indexDiv.classList.remove('hidden');
-      }
-      });
+    
+     window.addEventListener('scroll', function() {
+     const indexDiv = document.querySelector('.index');
+     const header1 = document.querySelector('.header1');
+     const header2 = document.querySelector('.header');
+     
+     const rect = indexDiv.getBoundingClientRect();
+     
+     // If the bottom of the index div is below the top of the viewport
+     if (rect.bottom <= 0) {
+       indexDiv.classList.add('hidden');
+       header1.classList.add('fixed');  // Fix the header1 in the index div
+       header2.classList.remove('fixed'); // Unfix the header2 in the home div
+     } else {
+       indexDiv.classList.remove('hidden');
+       header1.classList.remove('fixed'); // Unfix the header1 in the index div
+       header2.classList.add('fixed'); // Fix the header2 in the home div
+     }
+     });
+
 
     </script>
   </body>

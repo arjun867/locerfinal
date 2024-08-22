@@ -724,7 +724,8 @@
   color: var(--color-mediumseagreen-100);
 }
 .header1 {
-  position: absolute;
+  z-index: 20;
+  position: fixed;
   top: 0;
   /* left: calc(50% - 180px); */
   background-color: var(--foundation-red-red-50);
@@ -772,4 +773,7 @@
 }
 .hidden {
   display: none;
+}
+.fixed {
+  position: fixed;
 }
