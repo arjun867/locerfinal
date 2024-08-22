@@ -667,8 +667,8 @@
 .status-barandroid {
   position: absolute;
   top: 0;
-  left: calc(50% - 180px);
-  width: 360px;
+  /* left: calc(50% - 180px); */
+  width: 100vw;
 }
 .status-barandroid {
   background-color: var(--foundation-red-red-50);
@@ -726,9 +726,9 @@
 .header1 {
   position: absolute;
   top: 0;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   background-color: var(--foundation-red-red-50);
-  width: 360px;
+  width: 100vw;
   height: 64px;
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-xl);
