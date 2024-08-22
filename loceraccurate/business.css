@@ -33,6 +33,7 @@ a{
 }
 
 .locer-container {
+  padding-left: 50px;
   display: flex;
   align-items: center; /* Vertically center the items */
 }
@@ -63,6 +64,8 @@ a{
   min-width: 111px;
 }
 .button {
+  margin-top: 7px;
+  margin-right: 40px;
   cursor: pointer;
   border: 0;
   padding: var(--padding-smi) var(--padding-17xl);
@@ -155,13 +158,16 @@ a{
 .header {
   margin-left: -18px;
     /* padding-left: 15px; */
-  width: 89vw;
+  padding-bottom: 3px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  width: 100vw;
   align-self: stretch;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--color-white);
   justify-content: space-between;
-  padding: var(--padding-4xs) var(--padding-21xl) var(--padding-4xs) var(--padding-61xl);
-  position: sticky; /* Keeps the navbar sticky */
+  /* padding: var(--padding-4xs) var(--padding-21xl) var(--padding-4xs) var(--padding-61xl); */
+  position: fixed; /* Keeps the navbar sticky */
   top: 0; /* Sticks to the top */
   z-index: 99; /* Ensures it stays above other elements */
   gap: var(--gap-xl);
@@ -402,7 +408,7 @@ a{
   gap: 0.3px;
 }
 .process-column {
-  width: 1263px;
+  width: 100vw;
   align-items: flex-start;
   justify-content: center;
   padding: 0 var(--padding-xl);
@@ -1292,7 +1298,7 @@ a{
   font-family: var(--font-poppins);
 }
 .business {
-  width: 1440px;
+  width: 100vw;
   background-color: var(--color-white);
   overflow: hidden;
   position: relative;
