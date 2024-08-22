@@ -1010,7 +1010,7 @@
   font-family: var(--font-poppins);
 }
 .homepage {
-  width: 1440px;
+  width: 100vw;
   background-color: var(--color-white);
   overflow: hidden;
   justify-content: flex-start;
