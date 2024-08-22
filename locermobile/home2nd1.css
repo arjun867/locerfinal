@@ -347,7 +347,7 @@ details[open] .arrow-right-alt-icon {
   background-color: #f0f0f0;
   border: 1px solid #dcdcdc;
   box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   box-sizing: border-box;
   margin-top: 10px;
   padding-left: 16px;
@@ -478,7 +478,7 @@ details[open] .arrow-right-alt-icon {
   position: absolute;
 }
 .footer {
-  top: 3778px;
+  top: 3810px;
   /* left: calc(50% - 180px); */
   background-color: var(--color-mediumseagreen-100);
   width: 100vw;
