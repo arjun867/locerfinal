@@ -299,9 +299,9 @@
 .footer2 {
   position: absolute;
   top: 2209px;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   background-color: var(--color-mediumseagreen-100);
-  width: 360px;
+  width: 100vw;
   height: 312px;
   overflow: hidden;
   font-size: var(--font-size-xs);
@@ -337,10 +337,10 @@
 .header2 {
   position: fixed;
   top: 0;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--foundation-red-red-50);
-  width: 360px;
+  width: 100vw;
   height: 64px;
   justify-content: space-between;
   font-size: var(--font-size-lg);
@@ -378,9 +378,9 @@
 .navbar3 {
   position: fixed;
   bottom: 0;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   box-shadow: 0-1px 4px rgba(0, 0, 0, 0.15);
-  width: 360px;
+  width: 100vw;
   overflow: hidden;
   display: flex;
   flex-direction: row;
