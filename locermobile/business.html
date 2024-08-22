@@ -191,103 +191,97 @@
       >
       <div class="commonly-asked-questions">Commonly asked questions ?</div>
       <div class="faqbusiness">
-        <div class="faq10">
-          <input type="checkbox" id="faq1" class="faq-checkbox" />
-          <label class="question20" for="faq1">
+    <div class="faq10">
+        <input type="checkbox" id="faq1" class="faq-checkbox" />
+        <label class="question20" for="faq1">
             <div class="question21">What is locer?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              Locer is an online platform for local stores to go online, and customers
-              can buy products online from their home.
+                Locer is an online platform for local stores to go online, and customers can buy products online from their home.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq2" class="faq-checkbox" />
-          <label class="question20" for="faq2">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq2" class="faq-checkbox" />
+        <label class="question20" for="faq2">
             <div class="question21">How do I sign up to become a locer partner?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              Once you fill up the contact form, our team will contact you as soon as
-              possible.
+                Once you fill up the contact form, our team will contact you as soon as possible.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq3" class="faq-checkbox" />
-          <label class="question20" for="faq3">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq3" class="faq-checkbox" />
+        <label class="question20" for="faq3">
             <div class="question21">How quickly will I get paid?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              You will get paid weekly or you can choose to get paid within 3 days as
-              you like.
+                You will get paid weekly or you can choose to get paid within 3 days as you like.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq4" class="faq-checkbox" />
-          <label class="question20" for="faq4">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq4" class="faq-checkbox" />
+        <label class="question20" for="faq4">
             <div class="question21">What is needed to sign up?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              You need to be 18+, and eligible to work. Along with your Aadhar, GST ID,
-              and a bank account to get your payments done.
+                You need to be 18+, and eligible to work. Along with your Aadhar, GST ID, and a bank account to get your payments done.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq5" class="faq-checkbox" />
-          <label class="question20" for="faq5">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq5" class="faq-checkbox" />
+        <label class="question20" for="faq5">
             <div class="question21">Does locer charge any other fees?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              No, we don't charge any registration fees or any cancellation charges.
-              You can onboard to get new customers.
+                No, we don't charge any registration fees or any cancellation charges. You can onboard to get new customers.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq6" class="faq-checkbox" />
-          <label class="question20" for="faq6">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq6" class="faq-checkbox" />
+        <label class="question20" for="faq6">
             <div class="question21">What do the commission and fees cover?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              Commission covers your store management, analytics, and visibility to
-              reach customers. And a team whom you can contact 24/7 for any related queries.
+                Commission covers your store management, analytics, and visibility to reach customers. And a team whom you can contact 24/7 for any related queries.
             </div>
-          </div>
         </div>
-      
-        <div class="faq10">
-          <input type="checkbox" id="faq7" class="faq-checkbox" />
-          <label class="question20" for="faq7">
+    </div>
+
+    <div class="faq10">
+        <input type="checkbox" id="faq7" class="faq-checkbox" />
+        <label class="question20" for="faq7">
             <div class="question21">Where can I ask further questions?</div>
             <img class="icon-toggle" alt="toggle" src="./public/add.svg" />
-          </label>
-          <div class="answer20">
+        </label>
+        <div class="answer20">
             <div class="answer21">
-              You can send us your message at contact@locer.in.
+                You can send us your message at contact@locer.in.
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
       
       <img class="line-icon" alt="" src="./public/line-5.svg" />
     <div class="footermancont">
@@ -430,4 +424,21 @@
       </div>
     </div>
   </body>
+  <script>
+     document.querySelectorAll('.faq-checkbox').forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+            if (this.checked) {
+                // Close all other checkboxes
+                document.querySelectorAll('.faq-checkbox').forEach(function(otherCheckbox) {
+                    if (otherCheckbox !== checkbox) {
+                        otherCheckbox.checked = false;
+                    }
+                });
+            } else {
+                // Uncheck this checkbox when clicked again
+                this.checked = false;
+            }
+        });
+    });
+  </script>
 </html>
