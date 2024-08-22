@@ -45,6 +45,7 @@
 }
 
 .contact-form {
+  overflow-y: hidden;
   margin: 0 auto; /* Center the container */
 }
 
