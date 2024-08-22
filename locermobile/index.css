@@ -770,3 +770,6 @@
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+.hidden {
+  display: none;
+}

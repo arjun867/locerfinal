@@ -18,20 +18,10 @@
   </head>
   <body>
     <div class="index">
-      <div class="home8">
+      <div class="home8" id="scroll-div">
         <div class="home-item"></div>
-        <img
-          class="pngwingcom-48-11"
-          alt=""
-          src="./public/pngwingcom-48-11@2x.png"
-        />
-
-        <img
-          class="pngwingcom-57-11"
-          alt=""
-          src="./public/pngwingcom-57-11@2x.png"
-        />
-
+        <img class="pngwingcom-48-11" alt="" src="./public/pngwingcom-48-11@2x.png" />
+        <img class="pngwingcom-57-11" alt="" src="./public/pngwingcom-57-11@2x.png" />
         <div class="shop-on-locer1">Shop on locer</div>
         <div class="from-your-closer1">from your closer</div>
         <a href="">
@@ -40,25 +30,9 @@
             <img class="icondownload3" alt="" src="./public/icondownload.svg" />
           </div>
         </a>
-        
-        <img
-          class="pngtreechicken-biryani-top-vi1"
-          alt=""
-          src="./public/pngtreechicken-biryani-top-view-9171063-11@2x.png"
-        />
-
-        <img
-          class="pngwingcom-55-11"
-          alt=""
-          src="./public/pngwingcom-55-11@2x.png"
-        />
-
-        <img
-          class="pngwingcom-59-11"
-          alt=""
-          src="./public/pngwingcom-59-11@2x.png"
-        />
-
+        <img class="pngtreechicken-biryani-top-vi1" alt="" src="./public/pngtreechicken-biryani-top-view-9171063-11@2x.png" />
+        <img class="pngwingcom-55-11" alt="" src="./public/pngwingcom-55-11@2x.png" />
+        <img class="pngwingcom-59-11" alt="" src="./public/pngwingcom-59-11@2x.png" />
       </div>
       <div class="header1">
         <div class="locer4">locer</div>
@@ -68,7 +42,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="home">
       <div class="card">
         <img
@@ -396,5 +370,25 @@
         </div>
       </div>
     </div>
+    <script>
+      window.addEventListener('scroll', function() {
+      // Get the index div
+      const indexDiv = document.querySelector('.index');
+      
+      // Get the bounding rectangle of the index div
+      const rect = indexDiv.getBoundingClientRect();
+      
+      // Get the height of the viewport
+      const windowHeight = window.innerHeight;
+      
+      // Check if the bottom of the div is above the bottom of the viewport
+      if (rect.bottom <= 0) {
+        indexDiv.classList.add('hidden');
+      } else {
+        indexDiv.classList.remove('hidden');
+      }
+      });
+
+    </script>
   </body>
 </html>
