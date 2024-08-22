@@ -169,60 +169,63 @@
       <!-- faq -->
       <div class="faqhome">
         <details class="faq">
-          <summary class="question">
-            <span class="question1">What store categories are available at locer?</span>
-            <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
-          </summary>
-          <div class="answer">
-            <div class="answer1">
-              You can buy from kirana shop, restaurant, meat counter, and vegetable shop.
+            <summary class="question">
+                <span class="question1">What store categories are available at locer?</span>
+                <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
+            </summary>
+            <div class="answer">
+                <div class="answer1">
+                    You can buy from kirana shop, restaurant, meat counter, and vegetable shop.
+                </div>
             </div>
-          </div>
         </details>
+    
         <details class="faq1">
-          <summary class="question">
-            <span class="question1">In what time will the product be delivered?</span>
-            <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
-          </summary>
-          <div class="answer">
-            <div class="answer1">
-              Usually, the product will be delivered between 5 minutes to an hour.
+            <summary class="question">
+                <span class="question1">In what time will the product be delivered?</span>
+                <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
+            </summary>
+            <div class="answer">
+                <div class="answer1">
+                    Usually, the product will be delivered between 5 minutes to an hour.
+                </div>
             </div>
-          </div>
         </details>
+    
         <details class="faq1">
-          <summary class="question">
-            <span class="question1">How can I get free delivery?</span>
-            <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
-          </summary>
-          <div class="answer">
-            <div class="answer1">You can get free delivery on bulk orders.</div>
-          </div>
-        </details>
-        <details class="faq1">
-          <summary class="question">
-            <span class="question1">At what rates will I get the products with no MRP?</span>
-            <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
-          </summary>
-          <div class="answer">
-            <div class="answer1">
-              You can buy products at genuine market rates, with a little convenience fee.
+            <summary class="question">
+                <span class="question1">How can I get free delivery?</span>
+                <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
+            </summary>
+            <div class="answer">
+                <div class="answer1">You can get free delivery on bulk orders.</div>
             </div>
-          </div>
         </details>
+    
         <details class="faq1">
-          <summary class="question">
-            <span class="question1">How can I make money on locer?</span>
-            <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
-          </summary>
-          <div class="answer">
-            <div class="answer1">
-              You can set up your store and get new customers who can buy products from your store, and then you will get paid.
+            <summary class="question">
+                <span class="question1">At what rates will I get the products with no MRP?</span>
+                <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
+            </summary>
+            <div class="answer">
+                <div class="answer1">
+                    You can buy products at genuine market rates, with a little convenience fee.
+                </div>
             </div>
-          </div>
         </details>
-      </div>
-      
+    
+        <details class="faq1">
+            <summary class="question">
+                <span class="question1">How can I make money on locer?</span>
+                <img class="arrow-right-alt-icon" alt="" src="./public/add.svg" />
+            </summary>
+            <div class="answer">
+                <div class="answer1">
+                    You can set up your store and get new customers who can buy products from your store, and then you will get paid.
+                </div>
+            </div>
+        </details>
+    </div>
       <div class="frequently-asked">Frequently Asked ?</div>
       <div class="home-child"></div>
       <div class="footer">
@@ -390,7 +393,18 @@
        header2.classList.add('fixed'); // Fix the header2 in the home div
      }
      });
+     const detailsElements = document.querySelectorAll('details');
 
+    detailsElements.forEach((details) => {
+        details.addEventListener('click', function () {
+            // Close all other details elements
+            detailsElements.forEach((otherDetails) => {
+                if (otherDetails !== details) {
+                    otherDetails.removeAttribute('open');
+                }
+            });
+        });
+    });
 
     </script>
   </body>
