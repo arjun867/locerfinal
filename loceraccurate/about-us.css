@@ -126,7 +126,7 @@
   margin: 0 !important;
   position: absolute;
   top: 18px;
-  left: 889px;
+  left: 900px;
   justify-content: flex-start;
   gap: var(--gap-5xl);
   font-size: var(--font-size-xl);
@@ -134,7 +134,7 @@
 }
 .header1 {
   margin-right: -81px;
-  width: 1441px;
+  width: 100vw;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--color-white);
   justify-content: space-between;
@@ -745,7 +745,7 @@
   font-family: var(--font-poppins);
 }
 .about-us {
-  width: 1440px;
+  width: 100vw;
   background-color: var(--color-white);
   overflow: hidden;
   position: relative;
