@@ -100,9 +100,9 @@ html, body {
 .stepper-item {
   position: absolute;
   top: 0;
-  left: calc(50% - 205px);
+  /* left: calc(50% - 205px); */
   background-color: rgba(45, 46, 135, 0.1);
-  width: 370px;
+  width: 100vw;
   height: 664px;
 }
 .signup-steps {
@@ -339,9 +339,9 @@ html, body {
 .business-item {
   position: absolute;
   top: 2217px;
-  left: calc(50% - 200px);
+  /* left: calc(50% - 200px); */
   background-color: var(--color-midnightblue-100);
-  width: 410px;
+  width: 100vw;
   height: 186px;
 }
 .become-a-confident {
@@ -523,8 +523,8 @@ html, body {
 .rectangle-div,
 .vector-icon10 {
   position: absolute;
-  left: calc(50% - 180px);
-  width: 360px;
+  /* left: calc(50% - 180px); */
+  width: 100vw;
 }
 .rectangle-div {
   /* top: 3298px; */
@@ -621,9 +621,9 @@ html, body {
   position: absolute;
   /* top: 3568px; */
   top: 3443px;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   background-color: var(--color-midnightblue-100);
-  width: 360px;
+  width: 100vw;
   height: 312px;
   overflow: hidden;
   font-size: var(--font-size-xs);
@@ -725,7 +725,7 @@ html, body {
 .header3 {
   position: fixed;
   top: 0;
-  left: calc(50% - 200px);
+  /* left: calc(50% - 200px); */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--foundation-red-red-50);
   width: 100vw;
@@ -771,9 +771,9 @@ html, body {
 .navbar4 {
   position: fixed;
   bottom: 0;
-  left: calc(50% - 180px);
+  /* left: calc(50% - 180px); */
   box-shadow: 0-1px 4px rgba(0, 0, 0, 0.15);
-  width: 360px;
+  width: 100vw;
   overflow: hidden;
   display: flex;
   flex-direction: row;
