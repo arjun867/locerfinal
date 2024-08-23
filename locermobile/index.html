@@ -406,6 +406,27 @@
         });
     });
 
+    const detailsElements1 = document.querySelectorAll('details');
+
+    detailsElements1.forEach((details) => {
+        details.addEventListener('toggle', function () {
+            const answer = details.querySelector('.answer');
+            
+            if (details.open) {
+                // Close all other details elements
+                detailsElements1.forEach((otherDetails) => {
+                    if (otherDetails !== details) {
+                        otherDetails.removeAttribute('open');
+                        otherDetails.querySelector('.answer').classList.remove('open');
+                    }
+                });
+
+                answer.classList.add('open');
+            } else {
+                answer.classList.remove('open');
+            }
+        });
+    });
     </script>
   </body>
 </html>

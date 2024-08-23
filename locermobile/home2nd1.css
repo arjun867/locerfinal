@@ -357,6 +357,10 @@ details[open] .arrow-right-alt-icon {
   font-size: var(--font-size-sm);
   padding-top: 10px;
 }
+.answer.open {
+  max-height: 200px; /* Adjust based on content height */
+  padding-bottom: 8px;
+}
 /* faqend */
 .frequently-asked {
   position: absolute;
