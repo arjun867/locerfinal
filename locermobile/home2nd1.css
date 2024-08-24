@@ -321,10 +321,16 @@
   cursor: pointer;
   padding: var(--padding-5xs) var(--padding-3xs);
   box-sizing: border-box;
+  border: none; /* No border by default */
+  outline: none; /* Remove outline on focus */
   /* Light border styling */
-  border: 1px solid #e0e0e0; /* Light grey color */
+  /* border: 1px solid #e0e0e0; Light grey color */
 }
-
+/* Style to add border when question is clicked */
+.faq:focus-within .question,
+.faq1:focus-within .question {
+  border: 1px solid #e0e0e0; /* Light grey border when clicked */
+}
 .question1 {
   flex: 1;
   font-weight: 500;
