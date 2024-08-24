@@ -705,13 +705,16 @@
 
 .question14 {
   /* Light border styling */
-  border: 1px solid #e0e0e0; /* Light grey color */
+  /* border: 1px solid #e0e0e0; Light grey color */
+  border: none;
   display: flex;
   align-items: center;
   cursor: pointer;
   padding: 10px; /* Add padding for better spacing */
 }
-
+.faq-checkbox:checked + .question14 {
+  border: 1px solid #e0e0e0; /* Light grey border when clicked */
+}
 .question15 {
   flex: 1;
   font-weight: 500;
